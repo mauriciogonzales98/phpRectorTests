@@ -34,7 +34,7 @@ class Jugador {
 
 $messi = new Jugador("Messi", 10, 100);
 
-//echo $messi->getNombre();
+echo $messi->getNombre(), "\n";
 $messi->run(15);
 
 ?>
